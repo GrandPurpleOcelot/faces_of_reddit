@@ -854,3 +854,19 @@ plt.imshow(convertToRGB(output))
 
 ![png](Final%20Report/output_46_1.png)
 
+
+# References:
+
+Reimer, Vincent. (2018). The Average Faces of 42 Different Subreddits. Retrieved from URL
+
+https://www.reddit.com/r/dataisbeautiful/comments/843zzy/the_average_faces_of_42_different_subreddits_oc/
+
+Kazemi, V., & Sullivan, J. (2014). One millisecond face alignment with an ensemble of regression trees. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 1867-1874).
+
+Langlois, J. H., & Roggman, L. A. (1990). Attractive faces are only average. Psychological science, 1(2), 115-121.
+
+Sagonas, C., Antonakos, E., Tzimiropoulos, G., Zafeiriou, S., & Pantic, M. (2016). 300 faces in-the-wild challenge: Database and results. Image and vision computing, 47, 3-18.
+
+Valentine, T., Darling, S., & Donnelly, M. (2004). Why are average faces attractive? The effect of view and averageness on the attractiveness of female faces. Psychonomic Bulletin & Review, 11(3), 482-487.
+
+

@@ -857,6 +857,10 @@ plt.imshow(convertToRGB(output))
 
 # References:
 
+Mallick, Satya. (2016). Average Face : OpenCV ( C++ / Python ) Tutorial. Retrieved from URL
+
+https://www.learnopencv.com/average-face-opencv-c-python-tutorial/
+
 Reimer, Vincent. (2018). The Average Faces of 42 Different Subreddits. Retrieved from URL
 
 https://www.reddit.com/r/dataisbeautiful/comments/843zzy/the_average_faces_of_42_different_subreddits_oc/

@@ -62,8 +62,8 @@ SUBREDDIT_LIST = ['headshots']
 img_list = {}
 
 def get_img_url(subreddit_name, limit = 5):
-    reddit = praw.Reddit(client_id='rs8_BNWmwMH-Uw',
-                     client_secret='MwlKmGCfsaNpUowKWw2OhncUSqQ',
+    reddit = praw.Reddit(client_id='ENTER_REDDIT_APIT_CREDENTIAL',
+                     client_secret='ENTER_REDDIT_APIT_CREDENTIAL',
                      user_agent='image_crawler_v0.0')
 
     try:

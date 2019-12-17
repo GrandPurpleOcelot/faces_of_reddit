@@ -164,7 +164,7 @@ plt.imshow(test_image_gray, cmap='gray')
 
 
 
-![png](output_9_1.png)
+![png](Final%20Report/output_9_1.png)
 
 
 ## 2. Detect face and construct facial landmarks
@@ -193,7 +193,7 @@ for face in faces:
 ```
 
 
-![png](output_11_0.png)
+![png](Final%20Report/output_11_0.png)
 
 
 We can see the algorithm successfully detected a human face in this image, denoted by the white rectangular that enclose the outer limits of facial features.
@@ -217,7 +217,7 @@ for n in range(0, 68):
 ```
 
 
-![png](output_14_0.png)
+![png](Final%20Report/output_14_0.png)
 
 
 This is an important method that I will use to construct 68 landmarks on the human face. These points denote the physical features of a face including the location of the eyes, nose, lips, and jawline. The points will be used to construct Delaunay triangulation for facial morphing in the next step of the face averaging process.
@@ -309,7 +309,7 @@ plt.imshow(convertToRGB(image_copy), cmap='gray')
 
 
 
-![png](output_20_1.png)
+![png](Final%20Report/output_20_1.png)
 
 
 To standardize the input images, we want the face to align horizontally by using certain points on the image. For example, we can use a similarity transform to rotate the position of the points of two eyes to the standard position (horizontal). We will specify the output with a pixel density of 600x600.
@@ -380,7 +380,7 @@ plt.imshow(convertToRGB(img))
 
 
 
-![png](output_22_1.png)
+![png](Final%20Report/output_22_1.png)
 
 
 We can see the face has been rotated horizontally with respect to eye line and cropped with a size of 600 x 600. This standardized face will be much easier to morph, blend, and average with other images.
@@ -413,7 +413,7 @@ plt.imshow(convertToRGB(naive_average_image.astype(np.uint8)))
 
 
 
-![png](output_25_1.png)
+![png](Final%20Report/output_25_1.png)
 
 
 We can see that the result is an abomination that results from facial features mismatching. To fix this issue, we can morph the face into an average triangles mesh using Delaunay Triangulation.   
@@ -476,7 +476,7 @@ plt.imshow(convertToRGB(img))
 
 
 
-![png](output_30_1.png)
+![png](Final%20Report/output_30_1.png)
 
 
 Let's create a function for the steps above. The outputs are the cropped images and coordinates of the transformed landmarks.  
@@ -583,7 +583,7 @@ for i, image in enumerate(transformed_images):
 ```
 
 
-![png](output_36_0.png)
+![png](Final%20Report/output_36_0.png)
 
 
 In order to calculate the average face, we first need to generate the mean facial landmarks. This can be done by averaging the coordinates of all transformed landmarks:
@@ -633,7 +633,7 @@ plt.imshow(blank_image)
 
 
 
-![png](output_39_1.png)
+![png](Final%20Report/output_39_1.png)
 
 
 
@@ -809,7 +809,7 @@ for i, image in enumerate(transformed_images):
 ```
 
 
-![png](output_42_0.png)
+![png](Final%20Report/output_42_0.png)
 
 
 ## After:
@@ -830,7 +830,7 @@ for i, image in enumerate(warped_images):
 ```
 
 
-![png](output_44_0.png)
+![png](Final%20Report/output_44_0.png)
 
 
 We can see the faces have been morphed with respect to the position of the average landmarks. The morph is most pronounced in the last face due to the significant deviation from the average landmarks. After averaging the pixel from these images, we obtain the final average face:
@@ -852,5 +852,5 @@ plt.imshow(convertToRGB(output))
 
 
 
-![png](output_46_1.png)
+![png](Final%20Report/output_46_1.png)
 

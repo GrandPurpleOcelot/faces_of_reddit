@@ -131,7 +131,7 @@ for i, image in enumerate(images):
 ```
 
 
-![png](output_7_0.png)
+![png](Final%20Report/output_7_0.png)
 
 
 # Data Pre-processing

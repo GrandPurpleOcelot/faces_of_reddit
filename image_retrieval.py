@@ -18,8 +18,8 @@ PATH_TO_DATA_LOCATION_UNIX = "/img_data"
 img_list = {}
 
 def get_img_url(subreddit_name, limit = 500):
-    reddit = praw.Reddit(client_id='rs8_BNWmwMH-Uw',
-                     client_secret='MwlKmGCfsaNpUowKWw2OhncUSqQ',
+    reddit = praw.Reddit(client_id='ENTER_REDDIT_API_CREDENTIALS',
+                     client_secret='ENTER_REDDIT_API_CREDENTIALS',
                      user_agent='image_crawler_v0.0')
 
     try:

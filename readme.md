@@ -24,7 +24,7 @@ Inspired by a submission from Vincent Riemer, a Redditor from the subreddit Data
 
 * Face Averaging
 
-Each section will contain a detail description and discussion of employ methods. Methods from this project were adapted from Satya Mallick's [OpenCV tutorial series](https://www.learnopencv.com/average-face-opencv-c-python-tutorial/). 
+Each section will contain a detail description and discussion of employ methods. Methods from this project were adapted from Satya Mallick's [OpenCV tutorial series](https://www.learnopencv.com/average-face-opencv-c-python-tutorial/) (Mallick, 2016). 
 
 
 ```python

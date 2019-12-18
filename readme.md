@@ -3,7 +3,7 @@
 ## Overview
 The project is set out to construct the average face for each subreddit using the images harvested from the user submissions from a number of given subreddits. The key analysis includes a single face generated from the aggregation of multiple faces detected in the images. The data science methods include computer vision (facial recognition) and Delaunay triangulation of facial landmarks.
 
-
+![summary](output_images/summary.JPG)
 
 ## Motivation
 
